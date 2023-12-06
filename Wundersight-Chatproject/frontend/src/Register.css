@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./Assets/Screenshot\ 2023-12-06\ 114010.png);
+}
+.register__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.register__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e1e1e190;
+  width: 100%;
+  height: 100vh;
+  gap: 20px;
+}
+.input__area{
+    padding: 10px;
+    width: 40%;
+}
+.join__btn{
+    padding: 10px; 
+    width: 40%;
+}
